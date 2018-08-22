@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <title>Home</title>
+    <style type="text/css">
+        /*phone model*/
+        body {
+            margin: 0;
+            background-color: #f2f2f2;
+            color: #656565;
+            
+        }
+        
+
+
+        /*Home*/
+        header{
+            background: #fff;
+            text-align: center;
+            padding-bottom: 10vh;
+        }
+        header h1{
+            margin: 0 auto;
+            padding: 15px 5px 7px 5px;
+            color:#656565;
+            width: 90%;
+            font-size: 50px
+        }
+        header img{
+            width: 100%;
+            height:auto;
+            max-width:1000px;
+            padding-top: 50px;
+        }
+
+
+
+        .tablink {
+            background-color:#404040;
+            color: white;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            font-size: 17px;
+            font-weight:bold;
+            width: 33.3%;
+        }
+
+        .tablink:hover {
+            background-color:  #3973ac;
+        }
+
+
+
+        section{
+            text-align: left;
+            margin: 50px 0px 50px 0px;
+            padding: 15px 10px 7px 10px;
+        }
+        section article{
+            margin: 0 auto;
+            padding: 15px 5px 15px 5px;
+            font-size: 40px;
+        }
+
+        section article p{
+            word-break: break-all;
+            font-size: 17px;
+        }
+
+
+        footer{
+            background-color: #3973ac;
+            margin: 0 auto;
+            padding: 50px 5px 50px 5px;
+
+        }
+        footer p{
+            text-align: center;
+            font-size: 20px;
+            color:#fff;
+        }
+
+
+        
+        
+
+        /* pc model 769-1000px */
+        @media only screen and (min-width: 769px){
+
+            header h1{
+                text-align: left;
+                padding: 15px 5px 7px 10px;
+                width: 1000px;
+                float: left;
+                font-size: 100px;
+            }
+        }
+        /* pc model 1000px up*/
+        @media only screen and (min-width: 1000px){
+            header,section,footer{
+                width: 1000px;
+                margin-left: auto;
+                margin-right: auto;
+                
+            }
+            
+        }
+    </style>
+
+</head>
+<body>
+<header id="header">
+    <h1 id="top">
+        淡江開源社
+    </h1>
+    
+    <nav id="nav">
+        <button class="tablink" onclick="">首頁</button>
+        <button class="tablink" onclick="">成員</button>
+        <button class="tablink" onclick="">專案</button>
+    </nav>
+    <img src="https://i.imgur.com/6VHFrrZ.jpg">
+</header>
+
+<section id="main">
+    <article id="introduction">
+        <i class="fas fa-cube"></i> 社團簡介
+        <hr>
+        <p id="content">
+            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            **********************************************************************************************************************************************************************************************************
+        </p>
+    </article>
+    
+    <article id="introduction">
+        <i class="fas fa-map-marker-alt"></i> 活動地點
+        <hr>
+        <p id="content">
+            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            **********************************************************************************************************************************************************************************************************
+        </p>
+    </article>
+    
+</section> 
+   
+<footer>
+    <p>Contact</p>
+    <p><i class="fab fa-telegram"></i> Telegram : xxxxxxxxxxxx</p>
+    <p><i class="fab fa-facebook-square"></i> Facebook : xxxxxxxxxxxxxx</p>
+    <p><i class="fab fa-github"></i> GitHub : xxxxxxxxxxx</p>
+</footer>
+    
+    
+
+
+</body>
+</html>
